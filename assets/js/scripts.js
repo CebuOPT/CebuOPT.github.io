@@ -45,7 +45,7 @@ jQuery(document).ready(function() {
 	    Countdown initializer
 	*/
 	var now = new Date();
-	var countTo = ('2018/04/27 15:45');    
+	var countTo = ('2018/04/30 09:30');    
 	$('.timer').countdown(countTo, function(event) {
 		$(this).find('.days').text(event.offset.totalDays);
 		$(this).find('.hours').text(event.offset.hours);
